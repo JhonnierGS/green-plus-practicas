@@ -1,0 +1,19 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { Hero } from '../app/home/components/hero';
+import { NuestrosNegocios } from '../app/home/components/nuestros-negocios';
+import { Stats } from '../app/home/components/stats';
+import { QuienesSomos } from '../app/home/components/quienes-somos';
+import { Mission} from '../app/home/components/mission';
+
+---
+<Layout title="Green plus" activePage="inicio">
+	<Hero client:load/>
+	<Stats client:load/>
+	<QuienesSomos client:load/>
+	<Mission client:load/>
+	<NuestrosNegocios client:load/>
+
+	<Mission client:load/>
+	
+</Layout>
