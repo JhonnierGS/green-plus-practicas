@@ -1,0 +1,44 @@
+# Dependencias
+node_modules/
+
+# Builds
+dist/
+build/
+out/
+
+# Archivos de producción temporales
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Env
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Cache
+.cache/
+.next/
+.nuxt/
+storybook-static/
+
+# Config de herramientas
+/.eslintcache
+/.parcel-cache
+/.sass-cache
+
+# Testing
+coverage/
