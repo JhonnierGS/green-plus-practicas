@@ -1,11 +1,14 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { Hero } from '../app/home/components/hero';
-import { NuestrosNegocios } from '../app/home/components/nuestros-negocios';
 import { Stats } from '../app/home/components/stats';
 import { QuienesSomos } from '../app/home/components/quienes-somos';
 import { Mission} from '../app/home/components/mission';
+import { NuestrosNegocios } from '../app/home/components/nuestros-negocios';
+import { Operations } from '../app/home/components/operations';
+import { Sostenibilidad } from '../app/home/components/sostenibilidad';
 
+import {Certifications} from '../app/home/components/certifications';
 ---
 <Layout title="Green plus" activePage="inicio">
 	<Hero client:load/>
@@ -13,7 +16,10 @@ import { Mission} from '../app/home/components/mission';
 	<QuienesSomos client:load/>
 	<Mission client:load/>
 	<NuestrosNegocios client:load/>
+	<Operations client:load/>
 
+	<Certifications client:load/>
+	<Sostenibilidad client:load/>
 	<Mission client:load/>
 	
 </Layout>

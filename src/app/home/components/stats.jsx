@@ -2,7 +2,7 @@ import React from "react";
 
 export const Stats = () => {
   return (
-	<section className="flex lg:flex-row flex-col justify-center items-center font-montserrat lg:gap-[104px] gap-[48px] mx-[80px] mt-[40px] mb-[64px] lg:my-[96.5px]">
+	<section className="flex lg:flex-row flex-col justify-center items-center font-montserrat lg:gap-[104px] gap-[48px] px-[80px] pt-[40px] pb-[64px] lg:py-[96.5px]">
 			<div className="w-full lg:max-w-[284px] h-full flex flex-col items-center lg:items-start gap-[24px]">
 				<h3 className="text-[34px] font-semibold text-neutral-1100 leading-[24px]">+5000</h3>
 				<p className="text-[18px] font-semibold text-neutral-1100 leading-[13px]">Empleados</p>

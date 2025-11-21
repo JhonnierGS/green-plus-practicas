@@ -8,7 +8,7 @@ export const Hero = () => {
     <>
     <section className='h-full w-full bg-hero bg-cover bg-center flex'>
 		
-    <div className="lg:justify-center flex flex-col items-center gap-[64px] my-[214px] mx-auto font-montserrat">
+    <div className="lg:justify-center flex flex-col items-center gap-[64px] py-[214px] mx-auto font-montserrat">
 		
 			<div className=" w-full max-w-[328px] lg:max-w-[1016px] flex justify-center items-center ">
 				<h1 className="text-[clamp(40px,6vw,68px)] font-semibold text-neutral-100 text-center ">
@@ -22,7 +22,7 @@ export const Hero = () => {
 				</p>
 			</div>
 		
-			<div className="button-container w-[328px] lg:w-[491px] flex flex-col lg:flex-row justify-center items-center gap-4 lg:gap-6 mt-6">
+			<div className="button-container w-[328px] lg:w-[491px] flex flex-col lg:flex-row justify-center items-center gap-4 lg:gap-6 pt-6">
 				<a href="#comienza-ahora"
 					className="w-full lg:w-[247px] h-[64px] gap-[8px] inline-flex justify-center items-center rounded-max bg-secondary-900 px-5 py-2.5 text-neutral-100 text-[18px] font-semibold shadow hover:bg-secondary-100 transition">
 					Comienza ahora 
