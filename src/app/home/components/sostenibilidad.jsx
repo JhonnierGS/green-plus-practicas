@@ -5,8 +5,8 @@ export const Sostenibilidad = () => {
 	  return (
 		<section className="flex flex-col lg:gap-[80px] gap-[48px] py-[80px] mx-auto bg-neutral-50">
 			<div className="flex lg:flex-row flex-col w-full lg:px-[80px] px-[16px] lg:gap-[104px] gap-[48px]">
-				<div className="flex flex-col gap-[64px] lg:gap-[301px] items-center">
-					<div className="w-full h-full flex flex-col font-semibold lg:gap-[52px] gap-[32px]">
+				<div className="flex flex-col gap-[32px] lg:gap-[301px] ">
+					<div className="w-full  flex flex-col font-semibold lg:gap-[52px] gap-[32px]">
 						<p className="text-[14px] font-poppins text-neutral-1100 leading-[10px] tracking-40">
 							SOSTENIBILIDAD
 						</p>
@@ -15,7 +15,7 @@ export const Sostenibilidad = () => {
 							Apostamos al desarrollo sostenible desde diversos frentes
 						</h2>
 					</div>
-					<div className="w-full h-[40px] flex flex-row gap-[8px] items-center">
+					<div className="w-full h-[72px] flex flex-row gap-[8px] items-center border-b-1 border-darken-black-29">
 						<a href="#contacto"
 							className="w-[635.33px] text-[18px] font-montserrat font-semibold text-neutral-1100 leading-[13px] hover:text-secondary-100 transition">
 							Más sobre nosotros
@@ -27,8 +27,8 @@ export const Sostenibilidad = () => {
 						</button>
 					</div>
 				</div>
-				<div className="w-full lg:flex-1 aspect-video">
-					<iframe className="w-full h-full"
+				<div className="w-full h-full max-h-[541px] lg:flex-1 aspect-video">
+					<iframe className="w-full h-full max-h-[541px]"
 					src="https://www.youtube.com/embed/GP-GIETtuwY?si=wxh6TW7yb7wwk6lH"
 					title="YouTube video player"
 					frameborder="0"

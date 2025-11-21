@@ -4,7 +4,7 @@ import { Greenpluslogo, Fbicon, Twicon, Igicon, Yticon, Menuicon } from '../../.
 export const Navbar = ({ activePage }) => {
 	return (
 	<header className="w-full flex justify-center py-4 px-4 fixed left-0 top-0 z-50 ">
-		<div className="h-[64px] w-full bg-neutral-100 rounded-max flex items-center justify-between px-4 sm:px-8 lg:pl-[40px] lg:pr-[16px] ">
+		<div className="h-[64px] w-full bg-neutral-100 shadow-lg rounded-max flex items-center justify-between px-4 sm:px-8 lg:pl-[40px] lg:pr-[16px] ">
 				<nav className="hidden lg:flex items-center w-full max-w-[609px] h-[64px]">
 					<ul className="flex items-center text-[18px] font-montserrat font-semibold text-neutral-1100 gap-[16px]">
 						<li className="flex items-center ">
