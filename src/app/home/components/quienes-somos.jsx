@@ -6,7 +6,7 @@ export const QuienesSomos = () => {
   return (
 	<section className='flex justify-center '>
 		<div className='w-full max-w-[1920px] flex flex-col-reverse lg:flex-row items-center '>
-			<div className="w-full max-w-[1184px] flex flex-col lg:gap-[48px] gap-[32px] items-center mt-[40px] mb-[64px] lg:my-[80px] lg:px-[80px] px-[16px]">
+			<div className="w-full max-w-[1184px] flex flex-col lg:gap-[48px] gap-[32px] items-center pt-[40px] pb-[64px] lg:py-[80px] lg:px-[80px] px-[16px]">
 				<div className="w-full max-w-[1024px] ">
 					<p className="text-[14px] font-poppins tracking-40 font-semibold text-neutral-1100 leading-[10px]">
 						QUIÉNES SOMOS
