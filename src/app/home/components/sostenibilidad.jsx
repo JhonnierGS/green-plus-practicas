@@ -28,14 +28,17 @@ export const Sostenibilidad = () => {
 					</div>
 				</div>
 				<div className="w-full lg:flex-1 aspect-video">
-					<iframe className="w-full h-full"
-					src="https://www.youtube.com/embed/GP-GIETtuwY?si=wxh6TW7yb7wwk6lH"
-					title="YouTube video player"
-					frameborder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-					referrerpolicy="strict-origin-when-cross-origin"
-					allowfullscreen>
-					</iframe>
+					<iframe
+						width="560"
+						height="315"
+						src="https://www.youtube.com/embed/XXXXXXXX"
+						title="YouTube video player"
+						frameBorder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowFullScreen
+						referrerPolicy="no-referrer"
+					></iframe>
+
 				</div>
 			</div>
 			<div className="w-full flex flex-col lg:px-[80px] px-[16px] gap-[64px] mx-auto font-montserrat">
