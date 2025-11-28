@@ -3,10 +3,10 @@ import { Greenpluslogo, Fbicon, Twicon, Igicon, Yticon, Menuicon } from '../../.
 
 export const Navbar = ({ activePage }) => {
 	return (
-	<header className="w-full flex justify-center py-4 px-4 fixed left-0 top-0 z-50 ">
+	<header className="w-full flex justify-center my-4 px-4 fixed z-50">
 		<div className="h-[64px] w-full bg-neutral-100 shadow-lg rounded-max flex items-center justify-between px-4 sm:px-8 lg:pl-[40px] lg:pr-[16px] ">
 				<nav className="hidden lg:flex items-center w-full max-w-[609px] h-[64px]">
-					<ul className="flex items-center text-[18px] font-montserrat font-semibold text-neutral-1100 gap-[16px]">
+					<ul className="flex items-center text-[18px] font-semibold text-neutral-1100 gap-[16px]">
 						<li className="flex items-center ">
 							<a href="/" className={`whitespace-nowrap ${
 								activePage === 'inicio'
@@ -26,14 +26,14 @@ export const Navbar = ({ activePage }) => {
 						</li>
 							<span className="inline-block w-[5px] h-[5px] bg-neutral-1100 rounded-full"></span>
 						<li className="flex items-center ">
-							<a href="#" className="font-medium whitespace-nowrap">
+							<a href="#" className="font-semibold whitespace-nowrap">
 								Nuestros negocios
 							</a>
 							
 						</li>
 							<span className="inline-block w-[5px] h-[5px] bg-neutral-1100 rounded-full"></span>
 						<li>
-							<a href="#" className="font-medium whitespace-nowrap">
+							<a href="#" className="font-semibold whitespace-nowrap">
 								Sostenibilidad
 							</a>
 						</li>
@@ -42,7 +42,7 @@ export const Navbar = ({ activePage }) => {
 		
 
 			<div>
-				<figure className="text-primary-700">
+				<figure className="text-primary-700 _1400:flex hidden">
 				<Greenpluslogo className="w-[147px] h-[38px]" />
 				</figure>
 			</div>
@@ -86,7 +86,7 @@ export const Navbar = ({ activePage }) => {
 				<span className="inline-block w-[5px] h-[5px] bg-neutral-1100 rounded-full mx-[16px]"></span>
 				<a
 				href="#contacto"
-				className="inline-flex items-center rounded-max bg-secondary-900 px-5 py-2.5 text-info-100 font-montserrat font-semibold hover:bg-secondary-100 transition"
+				className="inline-flex items-center rounded-max bg-secondary-900 px-5 py-2.5 text-info-100 font-semibold hover:bg-secondary-100 transition"
 				>
 				Contáctanos
 				</a>

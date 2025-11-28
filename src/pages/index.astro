@@ -6,12 +6,14 @@ import { QuienesSomos } from '../app/home/components/quienes-somos';
 import { Mission} from '../app/home/components/mission';
 import { NuestrosNegocios } from '../app/home/components/nuestros-negocios';
 import { Operations } from '../app/home/components/operations';
+import {Certifications} from '../app/home/components/certifications';
 import { Sostenibilidad } from '../app/home/components/sostenibilidad';
 import { Fondo } from '../app/home/components/fondo';
+import { Footer } from '../app/contacto/components/footer';
 
-import {Certifications} from '../app/home/components/certifications';
+
 ---
-<Layout title="Green plus" activePage="inicio">
+<Layout title="Home |  Green plus" activePage="inicio">
 	<Hero client:load/>
 	<Stats client:load/>
 	<QuienesSomos client:load/>
@@ -22,7 +24,9 @@ import {Certifications} from '../app/home/components/certifications';
 	<Certifications client:load/>
 	<Sostenibilidad client:load/>
 	<Fondo client:load/>
+	<Footer client:load/>
 	
-	<Mission client:load/>
-	
+	<script>
+		import "../scripts/operations-animation.js";
+	</script>
 </Layout>

@@ -1,7 +1,13 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { Navbar } from '../app/contacto/components/Navbar';
+import { About } from '../app/quienes-somos/components/about';
+import { Nuestragente } from '../app/quienes-somos/components/nuestra-gente';
+import { Nuestrosvalores } from '../app/quienes-somos/components/nuestros-valores';
+import { Footer } from '../app/contacto/components/footer';
 ---
-<Layout title="Quienes Somos" activePage="quienes-somos">
-	
+<Layout title="Quienes Somos |  Green plus" activePage="quienes-somos">
+	<About client:load/>
+	<Nuestragente client:load/>
+	<Nuestrosvalores client:load/>
+	<Footer client:load/>
 </Layout>

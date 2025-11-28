@@ -13,13 +13,13 @@ export const QuienesSomos = () => {
 					</p>
 				</div>
 				<div className="w-full max-w-[1024px]">
-					<h2 className="lg:max-w-[641px] text-[clamp(28px,2vw,34px)] font-montserrat font-semibold text-neutral-1100 lg:leading-[32.5px] leading-[29.3px]">
+					<h2 className="lg:max-w-[641px] text-[clamp(28px,2vw,34px)] font-semibold text-neutral-1100 lg:leading-[32.5px] leading-[29.3px]">
 						Nos dedicamos a invertir y gestionar de una manera eficiente
 					</h2>
 				</div>
 				<div className="w-full max-w-[1024px] h-[72px] flex lg:flex-row gap-[8px] items-center border-b-1 border-darken-black-29 hover:border-secondary-100 transition-colors group">
 					<a href="#contacto"
-						className="w-full text-[18px] font-montserrat font-semibold text-neutral-1100 leading-[13px] transition group-hover:text-secondary-100">
+						className="w-full text-[18px] font-semibold text-neutral-1100 leading-[13px] transition group-hover:text-secondary-100">
 						Más sobre nosotros
 					</a>
 					<button className="w-full max-w-[40px] h-[40px] flex items-center justify-center rounded-full bg-secondary-700 transition group-hover:bg-secondary-100">
@@ -28,7 +28,7 @@ export const QuienesSomos = () => {
 						</figure>
 					</button>
 				</div>
-				<div className="lg:w-full lg:max-w-[1024px] w-[328px] flex flex-col lg:flex-row gap-[48px] font-montserrat text-center lg:text-start">
+				<div className="lg:w-full lg:max-w-[1024px] w-[328px] flex flex-col lg:flex-row gap-[48px] text-center lg:text-start">
 					<div className="w-full max-w-[488px] flex flex-col gap-[32px] items-center lg:items-start">
 						<figure className="text-secondary-700">
 							<Fi_1 className="w-[52px]"/>
@@ -48,7 +48,7 @@ export const QuienesSomos = () => {
 						</p>
 					</div>
 				</div>
-				<div className="lg:w-full lg:max-w-[1024px] w-[328px] flex flex-col lg:flex-row gap-[48px] font-montserrat text-center lg:text-start">
+				<div className="lg:w-full lg:max-w-[1024px] w-[328px] flex flex-col lg:flex-row gap-[48px] text-center lg:text-start">
 					<div className="w-full max-w-[488px] flex flex-col gap-[32px] items-center lg:items-start">
 						<figure className="text-secondary-700">
 							<Fi_3 className="w-[52px]"/>

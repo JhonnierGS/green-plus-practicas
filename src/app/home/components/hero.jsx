@@ -8,10 +8,10 @@ export const Hero = () => {
     <>
     <section className='h-full w-full bg-hero bg-cover bg-center flex'>
 		
-    <div className="lg:justify-center flex flex-col items-center gap-[64px] py-[214px] mx-auto font-montserrat">
+    <div className="lg:justify-center flex flex-col items-center gap-[64px] py-[214px] mx-auto">
 		
 			<div className=" w-full max-w-[328px] lg:max-w-[1016px] flex justify-center items-center ">
-				<h1 className="text-[clamp(40px,6vw,68px)] font-semibold text-neutral-100 text-center ">
+				<h1 className="text-[clamp(40px,8vw,68px)] font-semibold text-neutral-100 text-center ">
 					Una apuesta por Colombia, para el mundo
 				</h1>
 			</div>

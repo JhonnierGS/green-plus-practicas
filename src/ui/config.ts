@@ -1,12 +1,14 @@
 export const COLORS = {
   // Neutral colors
   "neutral-50": "#FFFAF4",
+  "neutral-300": "#F5F5F5",
   "neutral-100": "#FFFFFF",
   "neutral-1000": "#4C4C4C",
   "neutral-1100": "#333333",
   "neutral-1200": "#191919",
   // Primary colors 
   "primary-700": "#B6BD00",
+  "primary-1200": "#3F4100",
   
   // Secondary colors
   "secondary-100": "#7FBE5E",
@@ -95,7 +97,8 @@ export const COLORS = {
   "whiten-64": "rgba(255, 255, 255, 0.64)",
   "whiten-80": "rgba(255, 255, 255, 0.80)",
   "whiten-96": "rgba(255, 255, 255, 0.96)",
-  "whiten-white-29": "#FFFFFF29",
+  "whiten-white-14": "#FFFFFF14",
+  "whiten-white-29": "#FFFFFF29", 
   // Transparency dark colors
   "darken-4": "rgba(0, 0, 0, 0.04)",
   "darken-8": "rgba(0, 0, 0, 0.08)",

@@ -34,8 +34,13 @@ export default {
       },
     backgroundImage: {
       'avatar-1': "url('/img/avatars/avatar-1.jpg')",
-	  'hero': "url('/img/img1.svg')",
-	  'bgng': "url('/img/bgng.svg')",
+      'hero': "url('/img/img1.svg')",
+      'bgng': "url('/img/bgng.svg')",
+	  '1': "url('/img/1.svg')",
+	  'img2': "url('/img/img2.svg')",
+	  'footer': "url('/img/footer.svg')",
+	  
+	  
     },
     colors: COLORS
     }
