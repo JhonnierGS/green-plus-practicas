@@ -18,11 +18,11 @@ export const QuienesSomos = () => {
 					</h2>
 				</div>
 				<div className="w-full max-w-[1024px] h-[72px] flex lg:flex-row gap-[8px] items-center border-b-1 border-darken-black-29 hover:border-secondary-100 transition-colors group">
-					<a href="#contacto"
+					<a href="/quienes-somos"
 						className="w-full text-[18px] font-semibold text-neutral-1100 leading-[13px] transition group-hover:text-secondary-100">
 						Más sobre nosotros
 					</a>
-					<button className="w-full max-w-[40px] h-[40px] flex items-center justify-center rounded-full bg-secondary-700 transition group-hover:bg-secondary-100">
+					<button href="/quienes-somos" className="w-full max-w-[40px] h-[40px] flex items-center justify-center rounded-full bg-secondary-700 transition group-hover:bg-secondary-100">
 						<figure>
 							<Arrow className="w-[20px]" />
 						</figure>

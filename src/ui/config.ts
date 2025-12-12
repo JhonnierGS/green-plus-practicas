@@ -1,8 +1,9 @@
 export const COLORS = {
   // Neutral colors
   "neutral-50": "#FFFAF4",
-  "neutral-300": "#F5F5F5",
   "neutral-100": "#FFFFFF",
+  "neutral-300": "#F5F5F5",
+  "neutral-400": "#e5e5e5",
   "neutral-1000": "#4C4C4C",
   "neutral-1100": "#333333",
   "neutral-1200": "#191919",
@@ -87,6 +88,7 @@ export const COLORS = {
   "error-1100": "#610C24",
   "error-1200": "#420423",
   "error-1300": "#330022",
+  "error-red": "#d63637",
 
   // Transparency white colors
   "whiten-4": "rgba(255, 255, 255, 0.04)",

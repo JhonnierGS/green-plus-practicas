@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+import { Contacto } from './src/app/contacto/components/contact';
 import { twConfig, COLORS } from './src/ui/config';
 
 export default {
@@ -39,6 +40,7 @@ export default {
 	  '1': "url('/img/1.svg')",
 	  'img2': "url('/img/img2.svg')",
 	  'footer': "url('/img/footer.svg')",
+	  'contacto': "url('/img/contacto.webp')",
 	  
 	  
     },

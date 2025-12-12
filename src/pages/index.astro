@@ -9,18 +9,19 @@ import { Operations } from '../app/home/components/operations';
 import {Certifications} from '../app/home/components/certifications';
 import { Sostenibilidad } from '../app/home/components/sostenibilidad';
 import { Fondo } from '../app/home/components/fondo';
-import { Footer } from '../app/contacto/components/footer';
+import { Footer } from '../ui/Footer';
 
 
 ---
 <Layout title="Home |  Green plus" activePage="inicio">
 	<Hero client:load/>
-	<Stats client:load/>
+	<div id="stats">
+		<Stats client:load/>
+	</div>
 	<QuienesSomos client:load/>
 	<Mission client:load/>
 	<NuestrosNegocios client:load/>
 	<Operations client:load/>
-
 	<Certifications client:load/>
 	<Sostenibilidad client:load/>
 	<Fondo client:load/>

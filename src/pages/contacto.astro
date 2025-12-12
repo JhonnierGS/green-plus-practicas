@@ -1,9 +1,15 @@
 ---
 import Layout from "../layouts/Layout.astro"
+import { Contact } from '../app/contacto/components/contact';
+import { Formulario } from '../app/contacto/components/formulario-movil';
+import { Footer } from '../ui/Footer';
 
 ---
 
-<Layout title="Contacto">
+<Layout title="Contacto |  Green plus" activePage="Contacto">
+	<Contact client:load/>
+	<Formulario client:load/>
+	<Footer client:load/>
   
 </Layout>
 

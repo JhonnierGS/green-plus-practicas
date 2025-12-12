@@ -1,6 +1,6 @@
 import React from "react";
-import { Arrow, Greenpluslogo, Fbicon, Twicon, Igicon, Yticon, Map, Clock, Phone, Email } from "../../../ui/icons";
-import { pathRelative } from "../../../utils/paths";
+import { Arrow, Greenpluslogo, Fbicon, Twicon, Igicon, Yticon, Map, Clock, Phone, Email } from "./icons";
+
 
 export const Footer = () => {
   return (
@@ -17,7 +17,7 @@ export const Footer = () => {
 							</h2>
 						</div>
 						<div className="w-full max-w-[600px] h-[64px] flex flex-row items-center border-b-1 border-whiten-white-29 pb-[8px] gap-[8px]">
-							<a href="#contactanos"
+							<a href="/contacto"
 								className="w-full max-w-[544px] text-neutral-100 text-[18px] font-semibold leading-[13px]">
 								Contáctanos
 							</a>

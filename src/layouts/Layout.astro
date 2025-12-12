@@ -1,6 +1,6 @@
 ---
 import '../styles/index.css';
-import { Navbar } from '../app/contacto/components/Navbar';
+import { Navbar } from '../ui/Navbar';
 interface Props {
   title: string;
   activePage?: string;
@@ -21,7 +21,7 @@ const { title, activePage } = Astro.props;
   </head>
   <body>
    <header>
-	<Navbar activePage={activePage}/>
+	<Navbar activePage={activePage} client:load />
    </header>
     <slot />
   </body>
