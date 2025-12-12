@@ -91,7 +91,7 @@ export const Operations = () => {
 		</div>
 
 		<div id="map-pin" className="w-auto h-auto hidden lg:flex items-center sticky top-[100px] self-start">
-			<img src={pathRelative('/img/map.svg')} alt="Mapa de Colombia" className="w-full h-full"/>
+			<img src={pathRelative('/img/map.svg')} alt="Mapa de Colombia" className="w-full max-w-[606px] h-full"/>
 		</div>
 
 		<div className="hidden lg:flex flex-col gap-[200px]">

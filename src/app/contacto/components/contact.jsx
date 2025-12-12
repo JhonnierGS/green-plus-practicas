@@ -47,6 +47,8 @@ const validateForm = () => {
     
     if (!formData.nombre.trim()) {
 		newErrors.nombre = 'Este campo es obligatorio.';
+    } else if (formData.nombre.trim().length < 3) {
+		newErrors.nombre = 'El nombre debe tener al menos 3 caracteres.';
     }
     
     if (!formData.correo.trim()) {
@@ -57,6 +59,8 @@ const validateForm = () => {
     
     if (!formData.mensaje.trim()) {
 		newErrors.mensaje = 'Este campo es obligatorio.';
+    } else if (formData.mensaje.trim().length > 70) {
+		newErrors.mensaje = 'El mensaje no puede exceder los 70 caracteres.';
     }
 
     setErrors(newErrors);

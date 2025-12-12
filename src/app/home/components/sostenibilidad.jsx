@@ -4,8 +4,8 @@ import { Arrow } from "../../../ui/icons";
 export const Sostenibilidad = () => {
 	  return (
 		<section className="flex flex-col lg:gap-[80px] gap-[48px] py-[80px] mx-auto bg-neutral-50">
-			<div className="flex lg:flex-row flex-col w-full items-center  lg:px-[80px] px-[16px] lg:gap-[104px] gap-[48px]">
-				<div className="w-full max-w-[683.33px] flex flex-col gap-[32px] lg:gap-[301px] ">
+			<div className="flex lg:flex-row flex-col w-full items-center  lg:px-[80px] px-[16px] lg:gap-[104px] gap-[48px] justify-center">
+				<div className="w-full max-w-[683.33px] flex flex-col gap-[clamp(32px,calc(32px+(301-32)*(100vw-320px)/(1920-320)),301px)]">
 					<div className="w-full  flex flex-col font-semibold lg:gap-[52px] gap-[32px]">
 						<p className="text-[14px] font-poppins text-neutral-1100 leading-[10px] tracking-40">
 							SOSTENIBILIDAD
@@ -28,9 +28,9 @@ export const Sostenibilidad = () => {
 					</div>
 					
 				</div>
-				<div className="w-full aspect-video">
+				<div className="flex w-full max-w-[972.67px] ">
 					<iframe
-						className="w-full h-full"
+						className="w-full aspect-video "
 						src="https://www.youtube.com/embed/XXXXXXXX"
 						title="YouTube video player"
 						frameBorder="0"

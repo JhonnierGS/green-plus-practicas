@@ -35,6 +35,9 @@ export const Hero = () => {
 					onClick={scrollToStats}
 					className="w-full lg:w-[247px] h-[64px] gap-[8px] inline-flex justify-center items-center rounded-max bg-secondary-900 px-5 py-2.5 text-neutral-100 text-[18px] font-semibold shadow hover:bg-secondary-100 transition cursor-pointer">
 					Comienza ahora 
+					<figure>
+						<Arrow className="w-[24px] text-neutral-100"/>
+					</figure>
 				</a>
 					
 				<a href="#mas-informacion"

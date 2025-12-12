@@ -14,7 +14,7 @@ export const Certifications = () => {
 				sostenibilidad y responsabilidad para construir país.
 			</p>
 		</div>
-		<div className="flex flex-col lg:flex-row ">
+		<div className="w-full max-w-[1920px]  mx-auto flex flex-col lg:flex-row ">
 			<div className="w-full flex flex-row ">
 				<div className="w-full w-max-[480px] h-[189px] lg:h-[480px] border-1 border-darken-black-29 flex items-center justify-center">
 					<figure className='w-full flex justify-center '>
